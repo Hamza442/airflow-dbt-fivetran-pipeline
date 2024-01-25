@@ -1,0 +1,3 @@
+pymysql
+apache-airflow-providers-amazon
+dbt-core

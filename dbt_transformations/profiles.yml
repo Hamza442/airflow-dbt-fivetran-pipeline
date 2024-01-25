@@ -1,0 +1,13 @@
+dbt_transformation:
+  outputs:
+    dev:
+      account: cr42411.us-east-1.aws
+      database: FIVETRAN_DATABASE
+      password: mypassword
+      role: FIVETRAN_ROLE
+      schema: TRANSFORMED
+      threads: 20
+      type: snowflake
+      user: FIVETRAN_USER
+      warehouse: FIVETRAN_WAREHOUSE
+  target: dev

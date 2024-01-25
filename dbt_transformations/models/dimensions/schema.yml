@@ -1,0 +1,6 @@
+
+version: 2
+
+models:
+  - name: SALES_FACT
+  - name: DIM_DATE

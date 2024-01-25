@@ -1,0 +1,12 @@
+version: 2
+sources:
+- name: FIVETRAN_SALES
+  database: FIVETRAN_DATABASE
+  schema: SALES
+  tables:
+    - name: DIM_ADDRESS
+    - name: DIM_CREDITCARD
+    - name: DIM_CUSTOMER
+    - name: DIM_ORDERSTATUS
+    - name: DIM_PRODUCT
+    - name: STG_DATE
