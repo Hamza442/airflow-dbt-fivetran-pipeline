@@ -1,9 +1,4 @@
-# DE-POC-Mini-Project
-
 ## Getting started
-
-## Project Documentation
-- [ ] [DE-POC-Mini-Project](https://indatalabs.atlassian.net/wiki/x/DABSkw) 
 
 ## Glue Jobs
 
@@ -89,7 +84,7 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.indatalabs.com/rnd-projects/de-poc-mini-project.git
+git remote add origin <url>
 git branch -M main
 git push -uf origin main
 ```
